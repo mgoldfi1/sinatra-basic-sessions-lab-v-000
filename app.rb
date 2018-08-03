@@ -11,4 +11,8 @@ end
     erb :index
   end
 
+  post '/checkout' do
+    session << params 
+  end
+
 end
